@@ -5,7 +5,7 @@
 
   <body>
     <div class="jumbotron">
-      <h1>Train Schedule</h1>
+      <h1 id="jumboText">Train Schedule</h1>
     </div>
     <div class="container">
   <h2>Add Train</h2>
@@ -32,4 +32,19 @@
 
   </body>
 
-</html>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBI_q0tAI-_CV9kVNhtAsMPE0ONaJUdGC0",
+    authDomain: "trainschedule-69dd1.firebaseapp.com",
+    databaseURL: "https://trainschedule-69dd1.firebaseio.com",
+    storageBucket: "trainschedule-69dd1.appspot.com",
+    messagingSenderId: "971500761039"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+  </html>
